@@ -65,3 +65,62 @@ body {
     width: 100%;
 }
 
+.conteudo-cadastro-login-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.conteudo-cadastro-login-campos {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-cadastro-login-campos > input {
+    height: 6vh;
+    width: 80%;
+}
+
+.conteudo-cadastro-login-campos > p {
+    width: 80%;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 0.5rem;
+}
+
+
+.conteudo-cadastro-login-entrar {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-cadastro-login-entrar > a {
+    text-decoration: none;
+    background-color: #FF4655;
+    color: #ffff;
+    height: 6vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.conteudo-cadastro-login-conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.conteudo-cadastro-login-conta > a {
+    text-decoration: none;
+    color: #000;
+}
+
