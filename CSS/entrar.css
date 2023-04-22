@@ -87,7 +87,7 @@ header {
     width: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -115,16 +115,71 @@ header {
 }
 
 
-main {
-    height: 100%;
+.main {
+    height: 90vh;
     width: 100%;
     background-image: url('../IMG/Group\ 6.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-color: #111B27;
     font-family: 'Montserrat', sans-serif;;
 }
 
+.main-texto {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-texto-paragrafo {
+    height: 1%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.main-texto-paragrafo > p {
+    font-size: 0.75rem;
+    color: #fff;
+}
+
 .main-texto-img {
-    background-image: url('../IMG/F000000ff\ \(1\).png');
+    background-image: url("../IMG/F000000ff\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 55%;
+    height: 18%;
+    width: 60%;
+}
+
+.main-texto-bttn {
+    width: 60%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+}
+
+.main-texto-bttn-botão {
+        text-decoration: none;
+        background-color: #FF4655;
+        color: #ffff;
+        height: 5vh;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.main-texto-bttn-botão > a {
+    font-size: 0.75rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
