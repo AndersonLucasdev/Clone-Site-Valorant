@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -36,9 +38,6 @@ body {
     color: #ffff;
 }
 
-
-
-
 .conteudo-auth {
     width: 30%;
     height: 100%;
@@ -47,7 +46,6 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-
 
 .conteudo-auth-img {
     background-image: url('../IMG/logovalorant.png');
